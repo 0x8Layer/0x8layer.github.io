@@ -1,9 +1,10 @@
 .post
+    background: #343a40
     +above(rem(1450px))
         margin-left: 347px
     h1, h2, h3
         &:before
-            color main
+            color: #fff
             font-weight 300
             margin-right 10px
     h1
@@ -11,12 +12,14 @@
         margin 0
         font-size rem(30px)
         +above(cut)
+            color: #fff
             font-size rem(40px)
         &:before
             content "#"
-            color main
+            color: #fff
             font-size rem(40px)
     .time
+        color: #fff
         text-align center
         margin-top 30px
         mainFont(300)
@@ -29,6 +32,7 @@
         margin rem(30px) auto
         display block
     p, h1, h2, h3, h4,ul,ol, .tags, iframe
+        color: #fff 
         max-width rem(800px)
         padding 0 rem(20px)
         margin 0 auto rem(30px)
@@ -41,10 +45,10 @@
     p,li
         color texts
         code
-            color colorcode
+            color: #fff
     a
         mainFont(300)
-        color main
+        color: #fff
         text-decoration none
         border-bottom 2px solid main
         &:hover
@@ -55,6 +59,7 @@
     #twitter-widget-0
     	margin auto !important
     h1,h2,h3,h4,h5
+        color: #fff
         mainFont(800)
     h1
         font-size rem(30px)
@@ -88,7 +93,7 @@
         +below(cut)
             width 70%
         p
-            color rgba(0,0,0,0.6)
+            color: #fff
             margin 0
             +below(cut)
                 font-size rem(18px)
@@ -101,6 +106,7 @@
     .about_perfil
         width 200px
 .share
+    color: #fff
     center(800px)
     text-align center
     border-top 1px solid lightGray
@@ -123,6 +129,7 @@ table
         padding rem(5px)
 
 .tag-title
+    color: #fff
     mainFont(300)
     font-size rem(36px)
     margin-top rem(60px)
